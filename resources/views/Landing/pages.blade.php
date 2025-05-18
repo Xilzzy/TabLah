@@ -191,7 +191,7 @@
     </div>
 
     <!-- Kolom Logo Ikon -->
-    <div class="flex flex-col items-center justify-center">
+    <div class="flex-none items-center justify-center">
       <img src="/images/7.png" alt="Tablah Icon" class="w-40 mx-auto mb-4">
       <p class="text-xs text-gray-400 text-center">Bersama Menabung untuk Masa Depan</p>
     </div>

@@ -12,11 +12,5 @@ use Illuminate\Database\Eloquent\Relations\HasMany; // Import HasMany
 
 class User extends Authenticatable
 {
-    use HasFactory, Notifiable;
-
-    // Relasi ke Siswa
-    public function siswas()
-    {
-        return $this->hasMany(Siswa::class, 'guru_id');
-    }
+    
 }
