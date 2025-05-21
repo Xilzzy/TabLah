@@ -15,6 +15,18 @@ Route::get('/aktivitas', function () {
     return view('siswa.aktivitas');
 });
 
+// Admin
+Route::get('/home-admin', function () {
+    return view('admin.home');
+});
+
+Route::get('/akun-admin', function () {
+    return view('admin.akun');
+});
+Route::get('/akunGuru-admin', function () {
+    return view('admin.akunGuru');
+});
+
 
 
 // login
