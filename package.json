@@ -6,12 +6,15 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@iconify/json": "^2.2.339",
+        "@iconify/tailwind4": "^1.0.6",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
+        "tailwindcss": "^4.1.7",
         "vite": "^5.0"
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.1.4",
-        "tailwindcss": "^4.1.4"
+        "flowbite": "^3.1.2"
     }
 }
