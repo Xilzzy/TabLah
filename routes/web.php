@@ -11,8 +11,12 @@ Route::get('/tabungan', function () {
     return view('guru.tabungan');
 });
 
+// Siswa
 Route::get('/aktivitas', function () {
     return view('siswa.aktivitas');
+});
+Route::get('/dashboard-siswa', function () {
+    return view('siswa.dashboard');
 });
 
 // Admin
@@ -25,6 +29,18 @@ Route::get('/akun-admin', function () {
 });
 Route::get('/akunGuru-admin', function () {
     return view('admin.akunGuru');
+});
+Route::get('/dashboard-admin', function () {
+    return view('admin.dashboard');
+});
+Route::get('/kelas-admin', function () {
+    return view('admin.kelas');
+});
+Route::get('/audit-admin', function () {
+    return view('admin.audit');
+});
+Route::get('/laporan-admin', function () {
+    return view('admin.laporan');
 });
 
 
